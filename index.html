@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currancy Convert</title>
+    <!-- Icons Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="program">
+        <span class="title">Currancy Converter</span>
+        <div class="amount">
+            <label for="amount">Enter Amount</label>
+            <input type="text" placeholder="100" id="amount">
+        </div>
+        <div class="convert">
+            <div class="from">
+                <label for="From">from</label>
+                <select name="" id="From">
+                    <!-- <option value="USD">USD</option> -->
+                </select>
+            </div>
+            <div class="to">
+                <label for="To">to</label>
+                <select name="" id="To">
+                    <!-- <option value="EGP">EGP</option> -->
+                </select>
+            </div>
+        </div>
+        <div class="convert_res">
+            <span>100 USD = 50000 EGP</span>
+        </div>
+        <button class="convertBtn">Get Convert</button>
+    </div>
+    <script src="countries.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
